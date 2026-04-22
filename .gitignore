@@ -1,0 +1,45 @@
+# Binary executables
+*.out
+*.exe
+*.bin
+*.elf
+a.out
+
+# Object files
+*.o
+*.obj
+
+# Static / shared libraries
+*.a
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# Debug / symbol / profiling
+*.dSYM/
+*.gdb_history
+gmon.out
+*.gcno
+*.gcda
+*.gcov
+
+# Common build dirs
+build/
+dist/
+bin/
+
+# CMake / Make artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# Editors
+.vscode/
+.idea/
+*~
+
+# OS files
+.DS_Store
